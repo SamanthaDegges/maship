@@ -56,7 +56,7 @@ def ultimate(list):
 	x = randint(1,1000)
 	while len(list) > 1:
 		del(list[x % len(list)])	
-	return list
+	return list[0]
 
 
 print """
